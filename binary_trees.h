@@ -1,5 +1,6 @@
 #ifndef MAIN_HEADER_FILE
 #define MAIN_HEADER_FILE
+#include <stddef.h>
 /**
  * struct binary_tree_s - Binary tree node
  *
