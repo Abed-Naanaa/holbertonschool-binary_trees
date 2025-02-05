@@ -14,11 +14,10 @@ binary_tree_t *new_node;
 
 new_node = malloc(sizeof(binary_tree_t));
 
-(void)parent;
 
 if (new_node == NULL)
 return (NULL);
-
+new_node->parent = parent;
 new_node->n = value;
 new_node->left = NULL;
 new_node->right = NULL;
